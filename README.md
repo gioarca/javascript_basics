@@ -53,6 +53,9 @@
 ## About The Project
 
 It's a easy application where the user can use the buttons to increase (+) and decrease (-) the number inside the counter section. You can't modify the number, you can only use the buttons.
+Click here below on the link where you can try the app already deplpoyed:
+
+<a href="https://main--javascript-basics-93.netlify.app" target="_blank">https://main--javascript-basics-93.netlify.app/</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
