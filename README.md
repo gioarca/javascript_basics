@@ -29,8 +29,6 @@
   <p align="center">
     This is a small excerise to see how javascript works.
     <br />
-    <a href="https://github.com/gioarca/javascript_basics"><strong>Link for GitHub</strong></a>
-    <br />
     <br />
   </p>
 </div>
@@ -78,7 +76,7 @@ Click here below on the link where you can try the app already deplpoyed:
 
 Giorgio Arcamone - giorgio.arcamone93@gmail.com
 
-Project Link: [https://github.com/gioarca/javascript_basics](https://github.com/gioarca/javascript_basics)
+LinkedIn Profile: <a href="https://www.linkedin.com/in/giorgio-arcamone/" target=_blank>https://www.linkedin.com/in/giorgio-arcamone/</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
