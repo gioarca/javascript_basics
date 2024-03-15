@@ -20,6 +20,11 @@ buttonincrease.textContent = "+";
 buttonincrease.setAttribute('type', 'button');
 buttonincrease.setAttribute('class', 'increase');
 
+const buttonincrease = document.createElement('button-reset');
+buttonincrease.textContent = "R";
+buttonincrease.setAttribute('type', 'button');
+buttonincrease.setAttribute('class', 'reset');
+
 
 const buttondecrease = document.createElement('button-decrease');
 buttondecrease.textContent = "-";
@@ -31,6 +36,7 @@ document.querySelector('#container').append(p);
 document.querySelector('#container').append(p1);
 document.querySelector('#container').append(result);
 document.querySelector('#container').append(buttonincrease);
+document.querySelector('#container').append(buttonreset);
 document.querySelector('#container').append(buttondecrease);
 
 
@@ -46,5 +52,10 @@ btnincrease.addEventListener('click', function() {
 
 btndecrease.addEventListener('click', function() {
     counter--
+    document.querySelector("#result").innerHTML = counter
+  }) 
+
+btnreset.addEventListener('click', function() {
+    counter = 0;
     document.querySelector("#result").innerHTML = counter
   })  
