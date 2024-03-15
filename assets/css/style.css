@@ -25,7 +25,7 @@ body {
     margin-bottom: 70px;
 }
 
-#container .increase, #container .decrease  {
+#container .increase, #container .decrease, #container .reset  {
     display: relative;
     font-size: 2rem;
     margin-top: 2em;
