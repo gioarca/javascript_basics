@@ -41,20 +41,21 @@ document.querySelector('#container').append(buttondecrease);
 
 let btnincrease = document.querySelector(".increase")
 let btndecrease = document.querySelector(".decrease")
+let btnreset = document.querySelector(".reset")
 
-let counter = 0
+let counter = 0;
 
 btnincrease.addEventListener('click', function() {
     counter++
     document.querySelector("#result").innerHTML = counter
   })
 
+btnreset.addEventListener('click', function() {
+    counter = 0
+    document.querySelector("#result").innerHTML = counter
+  })  
+
 btndecrease.addEventListener('click', function() {
     counter--
     document.querySelector("#result").innerHTML = counter
   }) 
-
-btnreset.addEventListener('click', function() {
-    counter = 0;
-    document.querySelector("#result").innerHTML = counter
-  })  
