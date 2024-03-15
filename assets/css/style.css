@@ -1,54 +1,94 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0 auto;
-    font-family: "Montserrat";
-    font-size: 2rem;
-    background-color: beige;
-    text-align: justify;
+  margin: 0 auto;
+  font-family: "Montserrat", -apple-system, sans-serif;
+  font-size: 2rem;
+  background-color: beige;
+  text-align: center;
 }
 
 #container {
-    display: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+  display: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#counterDiv {
+text-align: center;
+align-items: center;
+justify-content: center;
 }
 
 #result {
-    display: block;
-    font-size: 3em;
-    padding: 20px;
-    margin-bottom: 70px;
+  display: block;
+  font-size: 5em;
+  padding: 20px;
+  margin-bottom: 70px;
 }
 
-#container .increase, #container .decrease, #container .reset  {
-    display: relative;
-    font-size: 2rem;
-    margin-top: 2em;
-    margin-right: 1em;
-    border : 1px #0a0a23;
-    border-style: solid;
-    background-color: transparent;
-    color: #0a0a23;
-    border-radius: 10px;
-    padding: 20px;
-    cursor: pointer;
+.increase {
+    justify-content: space-between;
+    font-size: 5rem;
+  margin: 2rem;
+  border: 3px solid #0a0a23;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 30px;
+  cursor: pointer;
 }
+
+.decrease {
+    justify-content: space-between;
+    font-size: 5rem;
+  margin: 2rem;
+  border: 3px solid #0a0a23;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.reset {
+    justify-content: space-between;
+    font-size: 5rem;
+  margin: 2rem;
+  border: 3px solid #0a0a23;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.increase:active, .decrease:active, .reset:active  {
+    background-color: green; 
+    transition: 1s;
+  }
+
+/* .increase:hover {
+    background-color: green; 
+    transition: 0.5s;
+} */
 
 @media only screen and (max-width: 480px) {
-    body {
-        font-size: 90%;
-        width: 80%;
-        height: 80%;
-    }
+  body {
+    font-size: 90%;
+    width: 100%;
+    height: 80%;
+  }
 
-    #container .increase, #container .decrease {
-        font-size: 1rem;
-        padding: 10px;
-    }
+  #paragraph {
+    font-size: large;
+  }
 
+  .increase, .decrease, .reset {
+    display: flex-row;
+    font-size: 2rem;
+    margin: .75rem;
+    padding: 15px;
+  }
 }
